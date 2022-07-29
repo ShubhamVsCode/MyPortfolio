@@ -178,8 +178,6 @@ body {
   background-blend-mode: darken;
 }
 
-.project-container {
-}
 .project-work {
   position: relative;
   display: flex;
@@ -219,9 +217,12 @@ body {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-.project-img {
-}
-.project-img:hover {
+.project:hover .project-img img {
+  transform: scale(1.1);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
 }
 
 .project-img img {
