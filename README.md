@@ -17,4 +17,4 @@ Here's the Live Deployed Website ![Project 15](https://img.shields.io/badge/Port
 - I also learned about making beautiful **Cards**.
 - I also learned tackle svgs.
 
-## This project took around **2.5 hours** to complete.
+## This project took around **7 hours** to complete.
