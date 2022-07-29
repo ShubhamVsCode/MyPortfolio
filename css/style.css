@@ -203,6 +203,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
   gap: 4rem;
+  row-gap: 6rem;
 }
 
 .project {
@@ -212,7 +213,9 @@ body {
   width: 28rem;
   height: 22rem;
 }
+
 .project:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .project-img {
