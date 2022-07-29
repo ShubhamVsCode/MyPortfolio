@@ -47,9 +47,10 @@ body {
   display: flex;
   align-items: center;
   gap: 4rem;
-}
-.nav-links {
   position: relative;
+}
+.nav-links a {
+  color: #5b0eeb;
 }
 
 .nav-links li:not(.contact) a::after {
@@ -58,9 +59,9 @@ body {
   top: 2px;
   content: "";
   height: 2px;
-  width: 40px;
+  width: 20px;
   border-radius: 1rem;
-  background: #c02cff;
+  background: #5b0eeb;
 
   opacity: 0;
 }
@@ -71,17 +72,12 @@ body {
 }
 
 .contact {
-  padding: 0.8rem 2rem;
-  background: #e208f1;
-  border-radius: 5px;
-  height: 3rem;
 }
 
 .contact a {
-  color: #fff;
+  color: #5b0eeb;
 }
 .contact:hover {
-  background: #c507d2;
 }
 
 .hero-container {
@@ -101,9 +97,12 @@ body {
   line-height: 1.2;
   color: transparent;
   background: rgb(0, 40, 117);
-  background: -webkit-linear-gradient(120deg, #ff8c00 0%, #e000ff 100%);
+  background: -webkit-linear-gradient(210deg, #13e0e0 0%, #5b0eeb 100%);
+  text-shadow: #8abdff;
   font-family: "Raleway";
   -webkit-background-clip: text;
+
+  margin-top: -2rem;
 }
 
 .hero-description {
@@ -119,20 +118,20 @@ body {
 }
 
 .hero-work-btn {
-  padding: 1rem 2.5rem;
-  background: #ff8c00d5;
+  width: 20rem;
+  padding: 2rem 6rem;
   position: absolute;
   right: 3px;
   bottom: 0.5rem;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.hero-work-btn:hover {
-  background: #f58a06d5;
+.hero-work-btn a {
+  color: #fff;
 }
 
 .hero-right-section {
@@ -190,7 +189,7 @@ body {
   display: block;
   position: absolute;
   bottom: 4.5rem;
-  color: #ff00bf;
+  color: #5b0eeb;
   font-size: 5rem;
   font-weight: 900;
   font-family: "Raleway";
@@ -210,7 +209,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   border-radius: 10px;
   width: 28rem;
-  height: 22rem;
+  height: 22.6rem;
 }
 
 .project:hover {
@@ -269,9 +268,48 @@ body {
 }
 
 .project-live-link:hover {
-  box-shadow: rgba(205, 23, 255, 0.644) 2px 2px 2px;
+  /* box-shadow: rgba(205, 23, 255, 0.644) 2px 2px 2px; */
 }
 
 .project-github-link:hover {
-  box-shadow: rgba(0, 163, 46, 0.644) 2px 2px 2px;
+  /* box-shadow: rgba(0, 163, 46, 0.644) 2px 2px 2px; */
+}
+
+/* Experimental */
+
+.btn {
+  width: 10rem;
+  height: 3.5rem;
+  border-radius: 5rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn__primary {
+  background: #6d5dfc;
+  box-shadow: inset 0.2rem 0.2rem 1rem #8abdff,
+    inset -0.2rem -0.2rem 1rem #5b0eeb, 0.3rem 0.3rem 0.6rem #c8d0e7,
+    -0.2rem -0.2rem 0.5rem #ffffff;
+  color: #e4ebf5;
+  background: #6d5dfc;
+}
+
+.btn__primary:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem #5b0eeb,
+    inset -0.2rem -0.2rem 1rem #8abdff;
+}
+
+.btn__secondary {
+  color: #6d5dfc;
+  background: #e4ebf5;
+}
+
+.btn__secondary:active {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7,
+    inset -0.2rem -0.2rem 0.5rem #fff;
 }
