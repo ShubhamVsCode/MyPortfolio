@@ -90,6 +90,11 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 6rem;
+
+  background: url(../assets/ShubhamMainBg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 0 top 0;
 }
 .hero-left-section {
   flex: 1;
