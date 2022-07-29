@@ -11,6 +11,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   /* font-family: "Raleway", sans-serif; */
+  scroll-behavior: smooth;
 }
 
 a {
@@ -245,14 +246,16 @@ body {
 
 .project-live-link,
 .project-github-link {
-  color: #000;
   background-color: #d9d9d9;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 150px;
+  height: 3.5rem;
   border: none;
   border-radius: 5rem;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 .project-live-link {
@@ -261,6 +264,7 @@ body {
 }
 .project-github-link svg {
   width: 30px;
+  margin-right: 10px;
 }
 
 .project-live-link:hover {
