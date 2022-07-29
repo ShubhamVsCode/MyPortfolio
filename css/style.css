@@ -41,6 +41,10 @@ body {
 .logo {
   font-weight: 500;
   font-size: 2rem;
+  color: transparent;
+  background: rgb(0, 40, 117);
+  background: -webkit-linear-gradient(0deg, #7313e0 0%, #4f0bcd 100%);
+  -webkit-background-clip: text;
 }
 
 .nav-links {
@@ -98,7 +102,6 @@ body {
   color: transparent;
   background: rgb(0, 40, 117);
   background: -webkit-linear-gradient(210deg, #13e0e0 0%, #5b0eeb 100%);
-  text-shadow: #8abdff;
   font-family: "Raleway";
   -webkit-background-clip: text;
 
@@ -183,12 +186,13 @@ body {
   justify-content: center;
   font-size: 10rem;
   color: #c3c3c34f;
+  font-family: "Raleway";
 }
 .project-work::after {
   content: "Work";
   display: block;
   position: absolute;
-  bottom: 4.5rem;
+  bottom: 2.5rem;
   color: #5b0eeb;
   font-size: 5rem;
   font-weight: 900;
@@ -312,4 +316,49 @@ body {
 .btn__secondary:active {
   box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7,
     inset -0.2rem -0.2rem 0.5rem #fff;
+}
+
+/* Blog Section */
+
+.blog-link {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-decoration: underline;
+}
+
+.blog-link :hover {
+  color: #6d5dfc;
+}
+
+.top-heading-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 10rem;
+  color: #c3c3c34f;
+  font-family: "Raleway";
+  font-weight: 700;
+  margin-top: 7rem;
+}
+.blog-container .top-heading-text:after {
+  content: "Blog";
+  display: block;
+  position: absolute;
+  bottom: 2.5rem;
+  color: #5b0eeb;
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: "Raleway";
+}
+
+.email-container .top-heading-text:after {
+  content: "Email";
+  display: block;
+  position: absolute;
+  bottom: 2.5rem;
+  color: #5b0eeb;
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: "Raleway";
 }
