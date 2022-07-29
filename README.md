@@ -1,4 +1,4 @@
-# My Portfolio - HTML ![](./readmeImages/html-5.png) and CSS ![](./readmeImages/css-3.png)
+# My Portfolio | HTML ![](./readmeImages/html-5.png) and CSS ![](./readmeImages/css-3.png)
 
 By **Shubham**
 
