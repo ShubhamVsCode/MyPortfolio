@@ -369,3 +369,102 @@ body {
   font-weight: 900;
   font-family: "Raleway";
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    height: auto;
+  }
+  .full-container {
+    margin: 0.5rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero-container {
+    height: 96vh;
+    flex-direction: column-reverse;
+    gap: 8rem;
+
+    background: url(../assets/ShubhamMainBg.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+  }
+
+  .hero-heading {
+    font-size: 3rem;
+    line-height: 1;
+
+    margin-top: 0rem;
+  }
+
+  .hero-description {
+    margin: 2rem 0;
+  }
+
+  .hero-work-btn {
+    margin: auto;
+    margin-top: 2rem;
+    position: static;
+    right: 0;
+    bottom: 0;
+  }
+
+  .hero-right-section {
+    justify-content: center;
+  }
+
+  .project-work {
+    margin-top: 5rem;
+    font-size: 5rem;
+  }
+  .project-work::after {
+    font-size: 3rem;
+  }
+
+  .projects {
+    margin-top: 5rem;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .project {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .project:hover .project-img img {
+    transition: 200ms;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* Blog Section */
+
+  .blog-link {
+    font-size: 1rem;
+  }
+
+  .top-heading-text {
+    font-size: 5rem;
+  }
+  .blog-container .top-heading-text:after {
+    font-size: 3rem;
+  }
+
+  .email-container .top-heading-text:after {
+    font-size: 3rem;
+  }
+}
