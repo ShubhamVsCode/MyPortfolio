@@ -399,7 +399,7 @@ body {
   }
 
   .hero-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1;
 
     margin-top: 0rem;
@@ -407,14 +407,27 @@ body {
 
   .hero-description {
     margin: 2rem 0;
+    font-size: 0.8rem;
+  }
+
+  .hero-description span {
+    font-size: 1rem;
   }
 
   .hero-work-btn {
     margin: auto;
     margin-top: 2rem;
+    padding: 0;
+    font-size: 0.6rem;
+
     position: static;
     right: 0;
     bottom: 0;
+  }
+
+  .btn {
+    width: 7rem;
+    height: 2.5rem;
   }
 
   .hero-right-section {
@@ -438,6 +451,10 @@ body {
   .project {
     width: 100%;
     height: 20rem;
+  }
+
+  .project-title {
+    font-size: 1rem;
   }
 
   .project:hover .project-img img {
